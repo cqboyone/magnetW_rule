@@ -38,7 +38,7 @@
     "id": "idope",
     "name": "idope",
     "proxy": true,
-    "url": "https://idope.pw",
+    "url": "https://idope.cyou",
     "paths": {
       "preset": "/torrent-list/{k}/?p={p}",
       "size": "/torrent-list/{k}/?p={p}&o=-2"
@@ -98,7 +98,7 @@
     "id": "btdiguo",
     "name": "BT目录",
     "proxy": true,
-    "url": "https://btmulu5.space",
+    "url": "https://btmulu.world",
     "paths": {
       "time": "/search-update/{k}/page-{p}.html",
       "size": "/search-size/{k}/page-{p}.html",
@@ -117,12 +117,12 @@
     "id": "bthub",
     "name": "BThub",
     "proxy": true,
-    "url": "https://bthub38.xyz",
+    "url": "https://bthub.xyz",
     "paths": {
-      "preset": "/cn/main-search-kw-{k}-{p}.html",
-      "size": "/cn/main-search-kw-{k}-length-{p}.html",
-      "time": "/cn/main-search-kw-{k}-time-{p}.html",
-      "hot": "/cn/main-search-kw-{k}-requests-{p}.html"
+      "preset": "/cn/search/kw-{k}-{p}.html",
+      "size": "/cn/search/kw-{k}-length-{p}.html",
+      "time": "/cn/search/kw-{k}-time-{p}.html",
+      "hot": "/cn/search/kw-{k}-requests-{p}.html"
     },
     "xpath": {
       "group": "//div[@class='search-item detail-width']",
@@ -137,7 +137,7 @@
     "id": "clzz",
     "name": "磁力蜘蛛",
     "proxy": false,
-    "url": "http://www.btmovi.online",
+    "url": "http://www.btmovi.tech",
     "paths": {
       "preset": "/s/{k}_rel_{p}.html",
       "time": "/s/{k}_time_{p}.html",

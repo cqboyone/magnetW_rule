@@ -6,3 +6,4 @@
 2. 在设置填入该地址
 https://raw.githubusercontent.com/cqboyone/magnetW_rule/main/rule/rule.json
 ![img.png](pic/img.png)
+3. [网站说明](./rule/网站说明.md)
