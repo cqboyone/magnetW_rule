@@ -20,6 +20,7 @@
   {
     "id": "btsow",
     "name": " BTSOW ",
+    "proxy": true,
     "url": "https://btsow.rest",
     "icon": "https://btsow.rest/favicon.ico",
     "paths": {
