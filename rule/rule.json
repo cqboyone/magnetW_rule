@@ -2,17 +2,17 @@
   {
     "id": "zhongzisou",
     "name": "种子搜",
-    "proxy": true,
     "url": "https://m.zhongziso19.xyz",
+    "icon": "https://m.zhongziso19.xyz/favicon.ico",
     "paths": {
-      "time": "/list/{k}/{p}",
+      "preset": "/list/{k}/{p}",
       "size": "/list_length/{k}/{p}",
-      "hot": "/list_click/{k}/{p}"
+      "time": "/info-e{p}e4ffbace4d819aad9d9f29a844922cce812"
     },
     "xpath": {
-      "group": "//div[@class='panel-body']/ul",
-      "magnet": "./li[1]/a/@href",
-      "name": "./li[1]/a",
+      "group": "//ul[@class='list-group']",
+      "magnet": "./li[1]/a[1]/@href",
+      "name": "./li[1]/a[1]",
       "size": "./li[2]/dl[1]/dd[2]",
       "date": "./li[2]/dl[1]/dd[3]"
     }

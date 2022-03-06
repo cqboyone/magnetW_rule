@@ -16,23 +16,5 @@
       "size": "./li[2]/dl[1]/dd[2]",
       "date": "./li[2]/dl[1]/dd[3]"
     }
-  },
-  {
-    "id": "btsow",
-    "name": " BTSOW ",
-    "proxy": true,
-    "url": "https://btsow.rest",
-    "icon": "https://btsow.rest/favicon.ico",
-    "paths": {
-      "preset": "/search/{k}",
-      "hot": "//btsow.rest/search/hookuphotshot"
-    },
-    "xpath": {
-      "group": "//div[@class='row']",
-      "magnet": "./a[1]/@href",
-      "name": "./a[1]",
-      "size": "./div[1]",
-      "date": "./div[2]"
-    }
   }
 ]
