@@ -1,0 +1,20 @@
+[
+  {
+    "id": "zhongziso19",
+    "name": "西部磁力链接_ed2k_BT种子_迅雷下载_种子搜磁力搜索",
+    "url": "https://m.zhongziso19.xyz",
+    "icon": "https://m.zhongziso19.xyz/favicon.ico",
+    "paths": {
+      "preset": "/list/{k}/{p}",
+      "size": "/list_length/{k}/{p}",
+      "time": "/info-e{p}e4ffbace4d819aad9d9f29a844922cce812"
+    },
+    "xpath": {
+      "group": "//ul[@class='list-group']",
+      "magnet": "./li[1]/a[1]/@href",
+      "name": "./li[1]/a[1]",
+      "size": "./li[2]/dl[1]/dd[2]",
+      "date": "./li[2]/dl[1]/dd[3]"
+    }
+  }
+]
