@@ -37,6 +37,23 @@
     }
   },
   {
+    "id": "wuqianao",
+    "name": "吴签",
+    "url": "https://wuqianao.xyz",
+    "icon": "https://wuqianao.xyz/favicon.ico",
+    "paths": {
+      "preset": "/search?keyword={k}&sos=relevance&sofs=all&sot=all&soft=all&som=exact&p={p}"
+    },
+    "xpath": {
+      "group": "//div[@class='panel panel-default border-radius']",
+      "magnet": "./div[1]/h3[1]/a[1]/@href",
+      "name": "./div[1]/h3[1]/a[1]",
+      "size": "./div[3]/h4[1]/small[1]/span[1]",
+      "date": "./div[3]/h4[1]/small[1]/span[3]",
+      "hot": "./div[3]/h4[1]/small[1]/span[2]"
+    }
+  },
+  {
     "id": "btgg",
     "name": "BTGG",
     "proxy": true,
