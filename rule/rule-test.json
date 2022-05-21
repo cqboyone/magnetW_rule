@@ -206,14 +206,23 @@
     }
   },
   {
-    "site": " 動漫花園資源網 ",
-    "waiting": "0",
-    "group": "//div[@class='main']",
-    "magnet": "./div[5]/div[3]/div[2]/table[1]/tbody[1]/tr[80]/td[4]/a[2]/@href",
-    "name": "./div[2]/div[1]/table[2]/tbody[1]/tr[7]/td[1]/a[3]",
-    "size": "./div[5]/div[3]/div[2]/style[1]",
-    "count": "./div[5]/div[3]/div[2]/table[1]/tbody[1]/tr[68]/td[3]/a[1]",
-    "source": "https://dmhy.anoneko.com/topics/list?keyword=XXX"
+    "id": "dmhy",
+    "name": " 動漫花園資源網 ",
+    "proxy": true,
+    "url": "https://share.dmhy.org",
+    "icon": "https://share.dmhy.org/favicon.ico",
+    "paths": {
+      "preset": "/topics/list?keyword={k}",
+      "size": "/topics/list?keyword=辉夜"
+    },
+    "xpath": {
+      "group": "//div[@class='main']",
+      "magnet": "./div[5]/div[3]/div[2]/table[1]/tbody[1]/tr[36]/td[4]/a[2]/@href",
+      "name": "./div[5]/div[3]/div[2]/table[1]/tbody[1]/tr[2]/td[4]/a[1]",
+      "size": "./div[5]/div[3]/div[2]/style[1]",
+      "date": "./script[3]",
+      "hot": "./div[5]/div[3]/div[2]/table[1]/tbody[1]/tr[36]/td[8]"
+    }
   },
   {
     "id": "1337x",
