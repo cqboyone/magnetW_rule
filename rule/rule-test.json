@@ -186,6 +186,26 @@
     }
   },
   {
+    "id": "anoneko",
+    "name": "動漫花園",
+    "proxy": false,
+    "url": "https://dmhy.anoneko.com",
+    "icon": "https://dmhy.anoneko.com/favicon.ico",
+    "paths": {
+      "preset": "/topics/list?keyword={k}",
+      "size": "/topics/list?keyword=辉夜",
+      "time": "/topics/view/{p}_TIME_1_MP4_MP4_1080P.html"
+    },
+    "xpath": {
+      "group": "//div[@class='main']",
+      "magnet": "./div[5]/div[3]/div[2]/table[1]/tbody[1]/tr[80]/td[4]/a[2]/@href",
+      "name": "./div[2]/div[1]/table[2]/tbody[1]/tr[7]/td[1]/a[3]",
+      "size": "./div[5]/div[3]/div[2]/style[1]",
+      "date": "./div[5]/div[3]/div[2]/table[1]/tbody[1]/tr[68]/td[3]/a[1]",
+      "hot": "./div[5]/div[3]/div[2]/table[1]/tbody[1]/tr[80]/td[8]"
+    }
+  },
+  {
     "id": "1337x",
     "name": "1337X（英文）",
     "proxy": true,
