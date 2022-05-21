@@ -18,6 +18,25 @@
     }
   },
   {
+    "id": "sokankan109",
+    "name": " 吃力网",
+    "url": "https://www.sokankan109.cc",
+    "icon": "https://www.sokankan109.cc/favicon.ico",
+    "paths": {
+      "preset": "/search.html?name={k}",
+      "time": "https://www.{p}qihu.cyou/vodsearch/-------------.html",
+      "size": "https://www.{p}qihu.cyou/vodsearch/-------------.html"
+    },
+    "xpath": {
+      "group": "//article[@class='item']/div",
+      "magnet": "./a[1]/@href",
+      "name": "./a[1]",
+      "size": "./a[1]/p[1]",
+      "date": "./a[1]/p[1]",
+      "hot": "./a[1]/p[1]"
+    }
+  },
+  {
     "id": "btgg",
     "name": "BTGG",
     "proxy": true,
