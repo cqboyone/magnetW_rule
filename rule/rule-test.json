@@ -19,42 +19,39 @@
   },
   {
     "id": "btsow",
-    "name": "BTSOW",
-    "proxy": false,
-    "url": "https://btsow.one",
+    "name": " BTSOW ",
+    "url": "https://btsow.bar",
+    "icon": "https://btsow.bar/favicon.ico",
     "paths": {
-      "preset": "/search/{k}/page/{p}"
+      "preset": "/search/{k}",
+      "hot": "//btsow.bar/search/réponses photo"
     },
     "xpath": {
       "group": "//div[@class='row']",
-      "magnet": "./a/@href",
-      "name": "./a/div[1]",
+      "magnet": "./a[1]/@href",
+      "name": "./a[1]",
       "size": "./div[1]",
-      "date": "./div[2]",
-      "detail": {
-        "files": "//div[@class=\"detail data-list\"]/div/text()"
-      }
+      "date": "./div[2]"
     }
   },
   {
     "id": "bt4g",
-    "name": "BT4G",
-    "proxy": true,
+    "name": " BT4G",
     "url": "https://bt4g.org",
+    "icon": "https://bt4g.org/favicon.ico",
     "paths": {
+      "preset": "/search/{k}",
       "time": "/search/{k}/{p}",
       "size": "/search/{k}/bysize/{p}",
-      "hot": "/search/{k}/byrequests/{p}"
+      "hot": "/week"
     },
     "xpath": {
-      "group": "/html/body/main/div/div[3]/div/div",
-      "magnet": "./h5/a/@href",
-      "name": "./h5/a",
-      "size": "./span[4]/b",
-      "date": "./span[2]/b",
-      "detail": {
-        "files": "//*[@id=\"wall\"]/div[6]/div[2]/ol/li"
-      }
+      "group": "//div[@class='col s12']/div",
+      "magnet": "./h5[1]/a[1]/@href",
+      "name": "./h5[1]/a[1]",
+      "size": "./span[4]/b[1]",
+      "date": "./span[2]/b[1]",
+      "hot": "./span[6]/b[1]"
     }
   },
   {
