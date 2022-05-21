@@ -94,6 +94,25 @@
     }
   },
   {
+    "id": "btmovi",
+    "name": "磁力搜索",
+    "url": "http://www.btmovi.website",
+    "icon": "http://www.btmovi.website/favicon.ico",
+    "paths": {
+      "preset": "/so/{k}.html",
+      "time": "/so/{k}_time_{p}.html",
+      "size": "/so/{k}_size_{p}.html"
+    },
+    "xpath": {
+      "group": "//div[@class='search-item']",
+      "magnet": "./div[1]/h3[1]/a[1]/@href",
+      "name": "./div[1]/h3[1]/a[1]",
+      "size": "./div[3]/span[3]/b[1]",
+      "date": "./div[3]/span[2]/b[1]",
+      "hot": "./div[3]/span[4]/b[1]"
+    }
+  },
+  {
     "id": "clzz",
     "name": "磁力蜘蛛",
     "proxy": false,
